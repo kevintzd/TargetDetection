@@ -5,12 +5,6 @@ This is the branch to compile Faster R-CNN on Windows and Linux. It is heavily i
 
 Currently, this repository supports Python 3.5, 3.6 and 3.7. Thanks to @morpheusthewhite
 
-### PLEASE BE AWARE: I do not have time or intention to fix all the issues for this branch as I do not use it commercially. I created this branch just for fun. If you want to make any commitment, it is more than welcome. Tensorflow has already released an object detection api. Please refer to it. https://github.com/tensorflow/models/tree/master/research/object_detection
-
-### If you find a solution to an existing issue in the code, please send a PR for it.
-
-### Also, instead of trying to deal with Tensorflow, use Chainer. It is ready to be used with all the common models https://github.com/chainer/chainercv & https://github.com/chainer/chainer . I can reply all of your questions about Chainer
-
 # How To Use This Branch
 1. Install tensorflow, preferably GPU version. Follow [instructions]( https://www.tensorflow.org/install/install_windows). If you do not install GPU version, you need to comment out all the GPU calls inside code and replace them with relavent CPU ones.
 
@@ -33,6 +27,3 @@ I will be glad if you can contribute with a batch script to automatically downlo
 For rest of the models, please check [here](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models)
 
 7. Run train.py
-
-Notify me if there is any issue found.
-
